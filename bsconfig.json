@@ -7,6 +7,13 @@
       "subdirs": true
     },
     {
+      "dir": "vendor/ocaml",
+      "files": [
+        "config.mli",
+        "config.ml"
+      ]
+    },
+    {
       "dir": "node_modules/bs-platform/vendor/ocaml/parsing",
       "files": [
         "ast_helper.mli",
@@ -25,7 +32,6 @@
       "files": [
         "clflags.ml",
         "clflags.mli",
-        "config.mli",
         "misc.mli",
         "misc.ml",
         "terminfo.mli",
