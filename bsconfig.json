@@ -1,0 +1,48 @@
+{
+  "name": "explore-bs-compiler-libs",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "node_modules/bs-platform/vendor/ocaml/parsing",
+      "files": [
+        "ast_helper.mli",
+        "ast_helper.ml",
+        "asttypes.mli",
+        "docstrings.mli",
+        "docstrings.ml",
+        "location.mli",
+        "location.ml",
+        "longident.mli",
+        "parsetree.mli"
+      ]
+    },
+    {
+      "dir": "node_modules/bs-platform/vendor/ocaml/utils",
+      "files": [
+        "clflags.ml",
+        "clflags.mli",
+        "config.mli",
+        "misc.mli",
+        "misc.ml",
+        "terminfo.mli",
+        "warnings.mli",
+        "warnings.ml"
+      ]
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "warnings": {
+    "error": "+101"
+  },
+  "namespace": true,
+  "refmt": 3
+}
